@@ -44,11 +44,11 @@ namespace GameSoftSaleSystems
             this.button7 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -160,7 +160,7 @@ namespace GameSoftSaleSystems
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(470, 657);
+            this.button7.Location = new System.Drawing.Point(470, 655);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(194, 80);
             this.button7.TabIndex = 33;
@@ -169,7 +169,7 @@ namespace GameSoftSaleSystems
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(470, 547);
+            this.button5.Location = new System.Drawing.Point(470, 509);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(194, 80);
             this.button5.TabIndex = 31;
@@ -178,21 +178,12 @@ namespace GameSoftSaleSystems
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(470, 437);
+            this.button4.Location = new System.Drawing.Point(470, 363);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(194, 80);
             this.button4.TabIndex = 30;
             this.button4.Text = "オーダー";
             this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(470, 327);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(194, 80);
-            this.button2.TabIndex = 29;
-            this.button2.Text = "ウォレット";
-            this.button2.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
@@ -231,12 +222,22 @@ namespace GameSoftSaleSystems
             this.textBox1.TabIndex = 34;
             this.textBox1.Text = "検索バー";
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(734, 744);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(35, 12);
+            this.label8.TabIndex = 48;
+            this.label8.Text = "label8";
+            // 
             // FormSetting
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.ClientSize = new System.Drawing.Size(1904, 1041);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.dateTimePicker1);
@@ -251,7 +252,6 @@ namespace GameSoftSaleSystems
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button3);
@@ -280,10 +280,10 @@ namespace GameSoftSaleSystems
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label8;
     }
 }
