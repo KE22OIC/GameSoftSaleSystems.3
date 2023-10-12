@@ -160,7 +160,7 @@ namespace GameSoftSaleSystems
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(470, 655);
+            this.button7.Location = new System.Drawing.Point(470, 691);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(194, 80);
             this.button7.TabIndex = 33;
@@ -169,7 +169,7 @@ namespace GameSoftSaleSystems
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(470, 509);
+            this.button5.Location = new System.Drawing.Point(470, 533);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(194, 80);
             this.button5.TabIndex = 31;
@@ -178,7 +178,7 @@ namespace GameSoftSaleSystems
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(470, 363);
+            this.button4.Location = new System.Drawing.Point(470, 375);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(194, 80);
             this.button4.TabIndex = 30;
@@ -225,11 +225,13 @@ namespace GameSoftSaleSystems
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(734, 744);
+            this.label8.Font = new System.Drawing.Font("MS UI Gothic", 15F);
+            this.label8.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label8.Location = new System.Drawing.Point(728, 742);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(35, 12);
+            this.label8.Size = new System.Drawing.Size(221, 20);
             this.label8.TabIndex = 48;
-            this.label8.Text = "label8";
+            this.label8.Text = "クレジットカード情報の編集";
             // 
             // FormSetting
             // 
