@@ -77,6 +77,18 @@
     <Compile Include="FormMainmenu.Designer.cs">
       <DependentUpon>FormMainmenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormPaymentInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPaymentInformation.Designer.cs">
+      <DependentUpon>FormPaymentInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReviewPurchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReviewPurchase.Designer.cs">
+      <DependentUpon>FormReviewPurchase.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormSetting.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,6 +147,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormMainmenu.resx">
       <DependentUpon>FormMainmenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPaymentInformation.resx">
+      <DependentUpon>FormPaymentInformation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormSetting.resx">
       <DependentUpon>FormSetting.cs</DependentUpon>
