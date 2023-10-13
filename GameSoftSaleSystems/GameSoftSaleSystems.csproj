@@ -77,7 +77,23 @@
     <Compile Include="2.FormMainmenu.Designer.cs">
       <DependentUpon>2.FormMainmenu.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="3.0FormSetting.cs">
+=======
+    <Compile Include="FormPaymentInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPaymentInformation.Designer.cs">
+      <DependentUpon>FormPaymentInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReviewPurchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReviewPurchase.Designer.cs">
+      <DependentUpon>FormReviewPurchase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSetting.cs">
+>>>>>>> 28213b1f9500cfc65413d6e35e5db093dfdf7a6f
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="3.0FormSetting.Designer.cs">
@@ -136,8 +152,16 @@
     <EmbeddedResource Include="2.FormMainmenu.resx">
       <DependentUpon>2.FormMainmenu.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="3.0FormSetting.resx">
       <DependentUpon>3.0FormSetting.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="FormPaymentInformation.resx">
+      <DependentUpon>FormPaymentInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSetting.resx">
+      <DependentUpon>FormSetting.cs</DependentUpon>
+>>>>>>> 28213b1f9500cfc65413d6e35e5db093dfdf7a6f
     </EmbeddedResource>
     <EmbeddedResource Include="3.1FormSubscription.resx">
       <DependentUpon>3.1FormSubscription.cs</DependentUpon>
