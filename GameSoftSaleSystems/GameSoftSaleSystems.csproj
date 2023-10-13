@@ -59,11 +59,11 @@
     <Compile Include="FormInput.Designer.cs">
       <DependentUpon>FormInput.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormLogin.cs">
+    <Compile Include="1.FormLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormLogin.Designer.cs">
-      <DependentUpon>FormLogin.cs</DependentUpon>
+    <Compile Include="1.FormLogin.Designer.cs">
+      <DependentUpon>1.FormLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="FormLoginAndSecurity.cs">
       <SubType>Form</SubType>
@@ -71,29 +71,29 @@
     <Compile Include="FormLoginAndSecurity.Designer.cs">
       <DependentUpon>FormLoginAndSecurity.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormMainmenu.cs">
+    <Compile Include="2.FormMainmenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormMainmenu.Designer.cs">
-      <DependentUpon>FormMainmenu.cs</DependentUpon>
+    <Compile Include="2.FormMainmenu.Designer.cs">
+      <DependentUpon>2.FormMainmenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSetting.cs">
+    <Compile Include="3.0FormSetting.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSetting.Designer.cs">
-      <DependentUpon>FormSetting.cs</DependentUpon>
+    <Compile Include="3.0FormSetting.Designer.cs">
+      <DependentUpon>3.0FormSetting.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSubscription.cs">
+    <Compile Include="3.1FormSubscription.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSubscription.Designer.cs">
-      <DependentUpon>FormSubscription.cs</DependentUpon>
+    <Compile Include="3.1FormSubscription.Designer.cs">
+      <DependentUpon>3.1FormSubscription.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormTitleDetail.cs">
+    <Compile Include="4.0FormTitleDetail.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormTitleDetail.Designer.cs">
-      <DependentUpon>FormTitleDetail.cs</DependentUpon>
+    <Compile Include="4.0FormTitleDetail.Designer.cs">
+      <DependentUpon>4.0FormTitleDetail.cs</DependentUpon>
     </Compile>
     <Compile Include="FormTitleDetailRegist.cs">
       <SubType>Form</SubType>
@@ -127,23 +127,23 @@
     <EmbeddedResource Include="FormInput.resx">
       <DependentUpon>FormInput.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormLogin.resx">
-      <DependentUpon>FormLogin.cs</DependentUpon>
+    <EmbeddedResource Include="1.FormLogin.resx">
+      <DependentUpon>1.FormLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormLoginAndSecurity.resx">
       <DependentUpon>FormLoginAndSecurity.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormMainmenu.resx">
-      <DependentUpon>FormMainmenu.cs</DependentUpon>
+    <EmbeddedResource Include="2.FormMainmenu.resx">
+      <DependentUpon>2.FormMainmenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSetting.resx">
-      <DependentUpon>FormSetting.cs</DependentUpon>
+    <EmbeddedResource Include="3.0FormSetting.resx">
+      <DependentUpon>3.0FormSetting.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSubscription.resx">
-      <DependentUpon>FormSubscription.cs</DependentUpon>
+    <EmbeddedResource Include="3.1FormSubscription.resx">
+      <DependentUpon>3.1FormSubscription.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormTitleDetail.resx">
-      <DependentUpon>FormTitleDetail.cs</DependentUpon>
+    <EmbeddedResource Include="4.0FormTitleDetail.resx">
+      <DependentUpon>4.0FormTitleDetail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormTitleDetailRegist.resx">
       <DependentUpon>FormTitleDetailRegist.cs</DependentUpon>
