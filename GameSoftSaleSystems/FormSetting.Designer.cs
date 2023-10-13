@@ -187,11 +187,12 @@ namespace GameSoftSaleSystems
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(470, 327);
+            this.button2.Enabled = false;
+            this.button2.Location = new System.Drawing.Point(12, 206);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(194, 80);
             this.button2.TabIndex = 29;
-            this.button2.Text = "ウォレット";
+            this.button2.Text = "あとで消すやつ";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button1
