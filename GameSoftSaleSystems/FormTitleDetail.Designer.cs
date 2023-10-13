@@ -346,6 +346,7 @@ namespace GameSoftSaleSystems
             this.Controls.Add(this.pictureBox1);
             this.Name = "FormTitleDetail";
             this.Text = "FormTitleDetail";
+            this.Load += new System.EventHandler(this.FormTitleDetail_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();

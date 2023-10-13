@@ -143,9 +143,9 @@ namespace GameSoftSaleSystems
             this.label3.ForeColor = System.Drawing.Color.Red;
             this.label3.Location = new System.Drawing.Point(728, 584);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(29, 20);
+            this.label3.Size = new System.Drawing.Size(49, 20);
             this.label3.TabIndex = 38;
-            this.label3.Text = "国";
+            this.label3.Text = "通貨";
             // 
             // label2
             // 

@@ -136,5 +136,10 @@ namespace GameSoftSaleSystems
         {
 
         }
+
+        private void FormTitleDetail_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

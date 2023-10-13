@@ -49,16 +49,16 @@ namespace GameSoftSaleSystems
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(406, 207);
+            this.pictureBox1.Size = new System.Drawing.Size(345, 207);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
             // pictureBox2
             // 
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox2.Location = new System.Drawing.Point(424, 12);
+            this.pictureBox2.Location = new System.Drawing.Point(363, 12);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(364, 207);
+            this.pictureBox2.Size = new System.Drawing.Size(425, 207);
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
             // 
