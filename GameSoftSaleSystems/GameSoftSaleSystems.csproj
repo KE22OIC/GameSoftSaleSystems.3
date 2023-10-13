@@ -92,6 +92,18 @@
     <Compile Include="FormReviewPurchase.Designer.cs">
       <DependentUpon>FormReviewPurchase.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormPaymentInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPaymentInformation.Designer.cs">
+      <DependentUpon>FormPaymentInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReviewPurchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReviewPurchase.Designer.cs">
+      <DependentUpon>FormReviewPurchase.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormSetting.cs">
 >>>>>>> 28213b1f9500cfc65413d6e35e5db093dfdf7a6f
       <SubType>Form</SubType>
@@ -156,6 +168,9 @@
     <EmbeddedResource Include="3.0FormSetting.resx">
       <DependentUpon>3.0FormSetting.cs</DependentUpon>
 =======
+    <EmbeddedResource Include="FormPaymentInformation.resx">
+      <DependentUpon>FormPaymentInformation.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormPaymentInformation.resx">
       <DependentUpon>FormPaymentInformation.cs</DependentUpon>
     </EmbeddedResource>
